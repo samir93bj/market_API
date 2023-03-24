@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mongo-db-test:
+    image: mongo:latest
+    container_name: mognoDb_MarketApi_Dev
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo/data:/data/db
+  maria-db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: your_password_here
+      MYSQL_DATABASE: your_database_name_here
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db_data:/var/lib/mysql

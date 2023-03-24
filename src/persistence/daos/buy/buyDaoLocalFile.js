@@ -1,0 +1,5 @@
+class BuyDaoMemory {
+
+}
+
+export { BuyDaoMemory }
