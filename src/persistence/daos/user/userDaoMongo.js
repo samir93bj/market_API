@@ -1,4 +1,4 @@
-import User from '../../../db/Mongo/models/user.model.js'
+import User from '../../../db/MongoDb/models/user.model.js'
 import error from '../../../utils/error.js'
 
 class UserDaoMongo {

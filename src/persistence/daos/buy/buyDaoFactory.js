@@ -1,5 +1,5 @@
 import { config } from '../../../config/config.js'
-import { Connection } from '../../../db/Mongo/connection.js'
+import { Connection } from '../../../db/MongoDb/connection.js'
 
 const dataBaseContext = config.dataBase
 let dao

@@ -1,5 +1,5 @@
-import { Connection, Disconnect } from '../../../src/db/Mongo/connection.js'
-import Product from '../../../src/db/Mongo/models/product.model.js'
+import { Connection, Disconnect } from '../../../src/db/MongoDb/connection.js'
+import Product from '../../../src/db/MongoDb/models/product.model.js'
 import { requestGet, requestPost } from '../helpers/axios.js'
 
 let products

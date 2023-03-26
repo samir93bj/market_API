@@ -1,6 +1,6 @@
 import { requestGet, requestPost } from '../helpers/axios.js'
-import User from '../../../src/db/Mongo/models/user.model.js'
-import { Connection, Disconnect } from '../../../src/db/Mongo/connection.js'
+import User from '../../../src/db/MongoDb/models/user.model.js'
+import { Connection, Disconnect } from '../../../src/db/MongoDb/connection.js'
 
 let token
 let users

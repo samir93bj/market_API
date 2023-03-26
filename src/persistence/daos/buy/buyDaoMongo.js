@@ -1,4 +1,4 @@
-import Sale from '../../../db/Mongo/models/sale.model.js'
+import Sale from '../../../db/MongoDb/models/sale.model.js'
 import error from '../../../utils/error.js'
 
 class BuyDaoMongo {

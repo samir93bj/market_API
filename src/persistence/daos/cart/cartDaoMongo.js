@@ -1,4 +1,4 @@
-import Cart from '../../../db/Mongo/models/cart.model.js'
+import Cart from '../../../db/MongoDb/models/cart.model.js'
 import error from '../../../utils/error.js'
 import { createCartDto } from '../../dto/cart.dto.js'
 

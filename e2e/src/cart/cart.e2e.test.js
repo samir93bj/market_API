@@ -1,5 +1,5 @@
 import { requestGet, requestPost } from '../helpers/axios.js'
-import Cart from '../../../src/db/Mongo/models/cart.model.js'
+import Cart from '../../../src/db/MongoDb/models/cart.model.js'
 import { Connection, Disconnect } from '../../../src/db/Mongo/connection.js'
 
 let token
